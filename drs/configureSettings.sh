@@ -134,7 +134,7 @@ defaults -currentHost write com.apple.controlcenter WiFi -int 24
 #defaults -currentHost write com.apple.controlcenter AirDrop -int 18
 
 # Aktiviere StageManager
-#defaults write com.apple.WindowManager GloballyEnabled -bool true 
+defaults write com.apple.WindowManager GloballyEnabled -bool false 
 #defaults write com.apple.WindowManager AutoHide -bool false
 #defaults write com.apple.WindowManager HideDesktop -bool false
 defaults write com.apple.WindowManager EnableStandardClickToShowDesktop -bool false
