@@ -59,11 +59,11 @@ else
 fi
 
 dockapps=(  "/System/Applications/$LaunchPadApp"
-            "/System/Applications/$settingsApp"         
+            "/System/Applications/$settingsApp"
+            "/Applications/Firefox.app"                     
             "/Applications/Microsoft Outlook.app"
             "/Applications/Microsoft Word.app"
             "/Applications/Microsoft Excel.app"
-            "/Applications/Firefox.app"
             "/Users/$user/tomedo_client/tomedo.app")
 
 install_dockutil_if_missing() {
